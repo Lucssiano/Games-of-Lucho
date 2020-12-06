@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TRIVIA</title>
+    <link rel="stylesheet" type="text/css" href="trivia.css">
+</head>
+
+<script type="text/javascript" src="trivia.js"></script>
+
+<body>
+
+    <header>
+        <div class="comienzoTrivia">
+            <div class="botonGrid"><input type="button" id="botonComienzo" value="COMENZAR TRIVIA" onclick="inicio()">
+            </div>
+            <div class="triviaPalabra">TRIVIA</div>
+        </div>
+    </header>
+
+    <div class="posGrids">
+        <div class="temas">
+            <h1>Temas:</h1>
+            <li>Geografía</li>
+            <li>Arte</li>
+            <li>Deportes</li>
+            <li>Ciencia</li>
+            <li>Historia</li>
+        </div>
+        <div class="preguntaContainer">
+            <div class="pregunta"><span class="cambioPreg"></span></div>
+        </div>
+        <div class="timer">
+            <div class="tiempo">Tiempo <span class="cambioTiempo"> 10</span></div>
+        </div>
+    </div>
+
+    <div class="posGrids2">
+        <div class="temaOriginado">
+            <h2>Tema originado: <span class="temaAleatorio"></span></h2>
+        </div>
+        <div class="respuesta">
+            <div id="cambio1"><input type="button" id="primeraRespuesta" value="" onclick="cambio1();desBotones()">
+            </div>
+            <div id="cambio2"><input type="button" id="segundaRespuesta" value="" onclick="cambio2();desBotones()"></div>
+            <div id="cambio3"><input type="button" id="terceraRespuesta" value="" onclick="cambio3();desBotones()"></div>
+            <div id="cambio4"><input type="button" id="cuartaRespuesta" value="" onclick="cambio4();desBotones()"></div>
+        </div>
+        <div class="gridCorrectas">
+            <div class="respCorrectas">Respuestas correctas <span class="cambioCorrectas">0</span>/10</div>
+            <div class="sigNivel"><input type="button" id="sigPreg" value="SIGUIENTE PREGUNTA" onclick="inicio();fin()">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
