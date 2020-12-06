@@ -1,0 +1,230 @@
+body {
+  text-align: center;
+  background-image: url("../imagenes/fondoJuegos.png");
+  margin: 0 0 0 0;
+}
+
+header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: grey;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px white;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.comienzoTrivia {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 10em;
+}
+
+.triviaPalabra {
+  display: grid;
+}
+
+.botonGrid {
+  display: grid;
+  margin-left: 10px;
+  align-content: center;
+  visibility: visible;
+}
+
+#botonComienzo {
+  width: 250px;
+  height: 35px;
+  background: linear-gradient(#e66465, #9198e5);
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#botonComienzo:hover {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin: 0px 0px 0px 5px;
+  color: white;
+  padding-bottom: 8px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0px 0px 0px 5px;
+  text-shadow: 2px 2px 2px black;
+  color: red;
+  text-decoration: underline white;
+}
+
+.posGrids {
+  display: grid;
+  grid-template-columns: 25% 700px 1fr;
+  margin-top: 15px;
+  visibility: hidden;
+}
+
+.temas {
+  display: grid;
+}
+
+.preguntaContainer {
+  display: grid;
+  grid-template-rows: 100px;
+  background-color: orange;
+  border: 2px solid white;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 5px 0px;
+}
+
+.pregunta {
+  display: grid;
+  text-shadow: 2px 2px 2px white;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  margin: 20% 0%;
+  justify-content: center;
+}
+
+.timer {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 150px;
+  justify-content: center;
+}
+
+.tiempo {
+  font-size: 50px;
+  color: aqua;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-right: 25px;
+  justify-content: center;
+}
+
+.cambioTiempo {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.posGrids2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 25% 700px 1fr;
+  visibility: hidden;
+}
+
+
+#cambio1,
+#cambio2,
+#cambio3,
+#cambio4 {
+  background-color: grey;
+  padding: 1em;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-shadow: 2px 2px 2px white;
+  margin-top: 8px;
+}
+
+#primeraRespuesta,
+#segundaRespuesta,
+#terceraRespuesta,
+#cuartaRespuesta {
+  background-color: aqua;
+  width: 650px;
+  height: 35px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#primeraRespuesta:hover,
+#segundaRespuesta:hover,
+#terceraRespuesta:hover,
+#cuartaRespuesta:hover {
+  border: 2px solid black;
+  background-color: yellow;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  text-shadow: 2px 2px 2px black;
+  color: red;
+  max-height: 42px;
+  margin-top: 100px;
+}
+
+.temaOriginado {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 200px;
+  justify-content: center;
+}
+
+.temaAleatorio {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  margin-left: 60px;
+  color: white;
+  margin-top: 0px;
+}
+
+.gridCorrectas {
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: 200px;
+  justify-content: center;
+}
+
+.respCorrectas {
+  font-size: 30px;
+  color: greenyellow;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cambioCorrectas {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+#sigPreg {
+  width: 250px;
+  height: 35px;
+  background: linear-gradient(#e66465, #9198e5);
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border-radius: 15px;
+  font-size: 20px;
+  visibility: hidden;
+}
+
+#sigPreg:hover {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+/* Arreglar detalles de posicionamiento */
