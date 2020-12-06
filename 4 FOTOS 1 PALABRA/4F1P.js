@@ -19,9 +19,9 @@ var audioH = "";
 // Palabra para la habilitación del audio
 var habilitado = ["h"];
 // Agrego el audio a la variable audio1
-audio1.setAttribute("src", "sonidos/ganador.mp3");
+audio1.setAttribute("src", "../sonidos/ganador.mp3");
 // Indico el archivo de audio a cargar
-audioFondo.setAttribute("src", "sonidos/musica-fondo.mp3");
+audioFondo.setAttribute("src", "../sonidos/musica-fondo.mp3");
 audioFondo.setAttribute("loop", "true");
 
 // ### FUNCIONES ###
@@ -397,10 +397,10 @@ function nivel2() {
   document.getElementById("M").removeAttribute("disabled");
   document.getElementById("P").removeAttribute("disabled");
   document.getElementById("botonFinal").style.visibility = "hidden";
-  image1.src = "imagenes/foto5.jpg";
-  image2.src = "imagenes/foto6.jpg";
-  image3.src = "imagenes/foto7.jpg";
-  image4.src = "imagenes/foto8.jpg";
+  image1.src = "../imagenes/foto5.jpg";
+  image2.src = "../imagenes/foto6.jpg";
+  image3.src = "../imagenes/foto7.jpg";
+  image4.src = "../imagenes/foto8.jpg";
   inicio();
 }
 
@@ -439,10 +439,10 @@ function nivel3() {
   document.getElementById("T").removeAttribute("disabled");
   document.getElementById("M").removeAttribute("disabled");
   document.getElementById("botonFinal").style.visibility = "hidden";
-  image1.src = "imagenes/foto9.jpg";
-  image2.src = "imagenes/foto10.jpg";
-  image3.src = "imagenes/foto11.jpg";
-  image4.src = "imagenes/foto12.jpg";
+  image1.src = "../imagenes/foto9.jpg";
+  image2.src = "../imagenes/foto10.jpg";
+  image3.src = "../imagenes/foto11.jpg";
+  image4.src = "../imagenes/foto12.jpg";
   inicio();
 }
 
