@@ -14,43 +14,43 @@
     <header>
         4 FOTOS 1 PALABRA
     </header>
-
-    <div class="grid-boton">
-        <input type="button" id="botonComienzo" value="COMENZAR EL NIVEL 1" onclick="inicio()">
+    
+    <div class="grid-button">  
+        <input type="button" id="start-button" value="COMENZAR EL NIVEL 1" onclick="start()">
     </div>
 
     <h1><span class="level"></span></h1>
 
     <picture>
-        <div class="grid">
+        <div class="grid-images">
             <img src="../imagenes/foto1.jpeg" id="image1" class="zoom">
             <img src="../imagenes/foto2.jpg" id="image2" class="zoom">
             <img src="../imagenes/foto3.jpg" id="image3" class="zoom">
             <img src="../imagenes/foto4.jpg" id="image4" class="zoom">
         </div>
     </picture>
-
-    <div class="flex-row no-wrap">
-        <h2 class="palabra" id="palabra"></h2>
+    
+    <div class="flex-row">
+        <h2 class="word-class" id="word-id"></h2> 
     </div>
-
-    <section id="botones">
-        <input type="button" id="R1" value="R" class="letras" onclick="B1()">
-        <input type="button" class="letras" value="F" id="F1" onclick="B2()">
-        <input type="button" id="R2" value="R" class="letras" onclick="B3()">
-        <input type="button" id="A1" value="A" class="letras" onclick="B4()">
-        <input type="button" id="M" value="M" class="letras" onclick="B5()">
-        <input type="button" id="O" value="O" class="letras" onclick="B6()">
-        <input type="button" id="A2" value="A" class="letras" onclick="B7()">
-        <input type="button" class="letras" value="S" id="S">
-        <input type="button" class="letras" value="F" id="F2" onclick="B9()">
-        <input type="button" id="C" value="C" class="letras" onclick="B10()">
-        <input type="button" class="letras" value="T" id="T" onclick="B11()">
-        <input type="button" id="P" value="P" class="letras" onclick="B12()">
-        <input type="button" id="botonFinal" value="CONTINUAR AL NIVEL 2" onclick="niveles()">
-    </section>
-
-    <div class="sonidos">
+    
+    <div id="buttons-letters">
+        <input type="button" id="R1" value="R" class="letters" onclick="B1()">
+        <input type="button" class="letters" value="F" id="F1" onclick="B2()">
+        <input type="button" id="R2" value="R" class="letters" onclick="B3()">
+        <input type="button" id="A1" value="A" class="letters" onclick="B4()">
+        <input type="button" id="M" value="M" class="letters" onclick="B5()">
+        <input type="button" id="O" value="O" class="letters" onclick="B6()">
+        <input type="button" id="A2" value="A" class="letters" onclick="B7()">
+        <input type="button" class="letters" value="S" id="S">
+        <input type="button" class="letters" value="F" id="F2" onclick="B9()">
+        <input type="button" id="C" value="C" class="letters" onclick="B10()">
+        <input type="button" class="letters" value="T" id="T" onclick="B11()">
+        <input type="button" id="P" value="P" class="letters" onclick="B12()">
+        <input type="button" id="final-button" value="CONTINUAR AL NIVEL 2" onclick="levels()"> 
+    </div> 
+    
+    <div class="sounds">
         <input type="button" value="ACTIVAR SONIDO" id="play">
         <input type="button" value="PAUSAR SONIDO" id="pause">
     </div>
