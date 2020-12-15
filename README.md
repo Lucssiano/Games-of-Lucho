@@ -16,7 +16,7 @@ COSAS QUE ME GUSTARIA MEJORAR:
 - Debo agregar el juego con Phaser.js
 
 
-
+Creditos de la música y sonidos a: https://www.freemusicprojects.com/es/
 
 
 ---Project in which you can find two games , one called "Trivia" and the other one "4 FOTOS 1 PALABRA" (4 PICTURES 1 WORD)---
@@ -36,6 +36,8 @@ Things i would like to improve:
 
 - I have to add the game with Phaser.js
 
+
+Credits of the music and sounds to: https://www.freemusicprojects.com/es/
 
 
  
