@@ -13,15 +13,15 @@
 <body>
 
     <header>
-        <div class="comienzoTrivia">
-            <div class="botonGrid"><input type="button" id="botonComienzo" value="COMENZAR TRIVIA" onclick="inicio()">
+        <div class="header-grid">
+            <div class="start-grid-button"><input type="button" id="start--button" value="COMENZAR TRIVIA" onclick="inicio()">
             </div>
-            <div class="triviaPalabra">TRIVIA</div>
+            <div class="trivia-word">TRIVIA</div>
         </div>
     </header>
 
     <div class="posGrids">
-        <div class="temas">
+        <div class="topics">
             <h1>Temas:</h1>
             <li>Geografía</li>
             <li>Arte</li>
@@ -29,19 +29,20 @@
             <li>Ciencia</li>
             <li>Historia</li>
         </div>
-        <div class="preguntaContainer">
-            <div class="pregunta"><span class="cambioPreg"></span></div>
+        <div class="question-container">
+            <div class="question"><span class="cambioPreg"></span></div>
         </div>
-        <div class="timer">
-            <div class="tiempo">Tiempo <span class="cambioTiempo"> 10</span></div>
+        <div class="timer-container">
+            <div class="timer">Tiempo <span class="change-time"> 10</span></div>
         </div>
     </div>
 
     <div class="posGrids2">
-        <div class="temaOriginado">
-            <h2>Tema originado: <span class="temaAleatorio"></span></h2>
+        <div class="originated-topic">
+            <h2>Tema originado: <span class="random-topic"></span></h2>
         </div>
-        <div class="respuesta">
+        <div class="answer-container">
+            <!-- me quedé acá -->
             <div id="cambio1"><input type="button" id="primeraRespuesta" value="" onclick="cambio1();desBotones()">
             </div>
             <div id="cambio2"><input type="button" id="segundaRespuesta" value="" onclick="cambio2();desBotones()"></div>
@@ -54,7 +55,7 @@
             </div>
         </div>
     </div>
-
+<!-- sacar cosas que son innecesarias -->
 </body>
 
 </html>

@@ -15,24 +15,24 @@ header {
   text-align: center;
 }
 
-.comienzoTrivia {
+.header-grid {
   display: grid;
   grid-template-columns: 100px 100px;
   gap: 10em;
 }
 
-.triviaPalabra {
+.trivia-word {
   display: grid;
 }
 
-.botonGrid {
+.start-grid-button {
   display: grid;
   margin-left: 10px;
   align-content: center;
   visibility: visible;
 }
 
-#botonComienzo {
+#start--button {
   width: 250px;
   height: 35px;
   background: linear-gradient(#e66465, #9198e5);
@@ -42,7 +42,7 @@ header {
   font-size: 20px;
 }
 
-#botonComienzo:hover {
+#start--button:hover {
   border: 2px solid black;
   box-shadow: 2px 2px 2px black;
 }
@@ -74,11 +74,11 @@ h1 {
   visibility: hidden;
 }
 
-.temas {
+.topics {
   display: grid;
 }
 
-.preguntaContainer {
+.question-container {
   display: grid;
   grid-template-rows: 100px;
   background-color: orange;
@@ -88,7 +88,7 @@ h1 {
   margin: 5px 0px;
 }
 
-.pregunta {
+.question {
   display: grid;
   text-shadow: 2px 2px 2px white;
   font-size: 30px;
@@ -98,14 +98,14 @@ h1 {
   justify-content: center;
 }
 
-.timer {
+.timer-container {
   display: grid;
   grid-template-columns: 200px;
   grid-template-rows: 150px;
   justify-content: center;
 }
 
-.tiempo {
+.timer {
   font-size: 50px;
   color: aqua;
   text-shadow: 2px 2px 2px black;
@@ -114,7 +114,7 @@ h1 {
   justify-content: center;
 }
 
-.cambioTiempo {
+.change-time {
   font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
   color: red;
@@ -171,14 +171,14 @@ h2 {
   margin-top: 100px;
 }
 
-.temaOriginado {
+.originated-topic {
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: 200px;
   justify-content: center;
 }
 
-.temaAleatorio {
+.random-topic {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 25px;
   margin-left: 60px;
@@ -228,3 +228,4 @@ h2 {
 
 
 /* Arreglar detalles de posicionamiento */
+/* Sacar cosas que son innecesarias  */
