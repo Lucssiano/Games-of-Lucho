@@ -1,4 +1,4 @@
-# ---Proyecto en el podés encontrar dos juegos , uno llamado "Trivia" y el otro "4 FOTOS 1 PALABRA"---
+# Proyecto en el podés encontrar dos juegos , uno llamado "Trivia" y el otro "4 FOTOS 1 PALABRA"
 
 - El juego "Trivia" se trata de un juego simple en el que el usuario debe contestar 10 preguntas sobre distintos temas (Geografía, Arte, Deportes, Ciencia e Historia)
 
@@ -17,7 +17,7 @@
 
 
 
-# ---Project in which you can find two games , one called "Trivia" and the other one "4 FOTOS 1 PALABRA" (4 PICTURES 1 WORD)---
+# Project in which you can find two games , one called "Trivia" and the other one "4 FOTOS 1 PALABRA" (4 PICTURES 1 WORD) 
 
 - The game "Trivia" it's about a simple game in which the user has to answer 10 questions about different themes (Geography, Art, Sports, Science and History).
 
