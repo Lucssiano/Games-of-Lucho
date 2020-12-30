@@ -15,7 +15,7 @@
 
 - Debo agregar el juego con Phaser.js
 
-
+# ---------------------------------------------------------------------------- 
 
 # Project in which you can find two games , one called "Trivia" and the other one "4 FOTOS 1 PALABRA" (4 PICTURES 1 WORD) 
 
